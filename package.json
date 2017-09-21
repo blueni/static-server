@@ -1,0 +1,11 @@
+{
+  "name": "node-serve",
+  "version": "1.0.0",
+  "description": "a node http server framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "blueni",
+  "license": "ISC"
+}
