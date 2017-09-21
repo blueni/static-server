@@ -8,9 +8,10 @@ const extendsResponse = require( './response.js' )
 const PORT = 8090
 
 http.createServer( ( req, res ) => {
+    extendsResponse( res )
+    
     let parsedUrl = new ParseURL( req.url )
     let filename = path.join( __dirname, parsedUrl.getFileName() )
-    extendsResponse( res )
     res.sendFile( filename )
 }).listen( PORT )
 
