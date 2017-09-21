@@ -14,9 +14,3 @@ class ParseURL{
 }
 
 module.exports = ParseURL
-
-let uri = 'http://www.baidu.com/a/b/app.js'
-let pUrl = new ParseURL( uri )
-
-console.log( '测试链接：', uri )
-console.log( '对应文件名是：',  pUrl.getFileName() )
