@@ -14,7 +14,7 @@
 5-extends-response
 6-set-response
 ```
-使用`git checkout 0-create-server`命令，切换到标签`0-create-server`学习第一节的内容，完全掌握后再调用命令`git checkout 1-path-demo`,以此类推，直到完全领会本教程。[wiki](/wikis/home)上有更为详细的文档介绍，让你理解更为轻松。
+使用`git checkout 0-create-server`命令，切换到标签`0-create-server`学习第一节的内容，完全掌握后再调用命令`git checkout 1-path-demo`,以此类推，直到完全领会本教程。[wiki](../wikis/home)上有更为详细的文档介绍，让你理解更为轻松。
 
 ## 谨记
 
